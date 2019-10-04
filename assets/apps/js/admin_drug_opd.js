@@ -243,7 +243,7 @@ $(document).on('click', 'button[data-btn="btn_view"]', function (e) {
     $("#frmModal .btn").prop('disabled', true);
     $("#btn_close").prop('disabled', false);
     $('#frmModal').modal('show');*/
-    window.open(site_url+"/drug/index/00000/"+id, "_blank");
+    window.open(site_url+"/drug/index/00031/"+id, "_blank");
 });
 
 function validate(items) {

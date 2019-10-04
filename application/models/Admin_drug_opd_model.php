@@ -123,4 +123,47 @@ class Admin_drug_opd_model extends CI_Model
             ->row_array();
         return $rs;
     }
+
+    public function  view_qrcode($hospcode,$didstd){
+        $rs = $this->db
+            ->set("hospcode",$hospcode)
+            ->set("didstd",$didstd)
+            ->set("date_time_view",date('Y-m-d H:i:s'))
+            ->insert('view_qrcode');
+        return $rs;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

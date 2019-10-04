@@ -1,6 +1,6 @@
 ﻿<script src="<?php echo base_url() ?>assets/vendor/js/jquery.dataTables.min.js" charset="utf-8"></script>
 <script src="<?php echo base_url() ?>assets/vendor/js/dataTables.bootstrap4.min.js" charset="utf-8"></script>
-<script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+<script src="https://cdn.tiny.cloud/1/ngy3lnp9j30bsphtqqr42tkm0xoixk5w3rprd27vjhfdhxo2/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
 <script>
     tinymce.init({
         selector: 'textarea',
@@ -118,14 +118,3 @@
 
 
 <script src="<?php echo base_url() ?>assets/apps/js/admin_drug_opd.js" charset="utf-8"></script>
-
-<!--         foreach ($invit_type as $r) {
-                                if ($outsite["invit_type"] == $r->id) {
-                                    $s = "selected";
-                                } else {
-                                    $s = "";
-                                }
-                                echo "<option value=" $r->id" $s > $r->name </option>";
-
-}
--->
