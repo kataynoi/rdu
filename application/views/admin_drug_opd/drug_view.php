@@ -39,7 +39,12 @@
 <div class="col col-xs-12">
     <div class="panel-success">
         <div class="panel-heading">
-            <h4><?php echo $drug['dname_thai'] ?></h4>
+            <h4><?php
+                if($drug['dname_thai'] !=""){
+                    echo $drug['dname_thai'] ;
+                }else{echo $drug['dname'] ;}
+
+                ?></h4>
         </div>
         <div class="panel-body">
             <?php echo $drug['drug_detail']?>
